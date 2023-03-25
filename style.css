@@ -1,0 +1,53 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#input-question {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#submit-button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #45a049;
+}
+
+#chatgpt-response {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    font-size: 18px;
+}
